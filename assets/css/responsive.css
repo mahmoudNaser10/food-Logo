@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  nav {
+    display: none;
+  }
+  main header .container .list-icon {
+    display: block;
+  }
+  main .hero .container {
+    min-height: 70vh;
+  }
+  main .hero .container .content {
+    width: 100%;
+  }
+  .our-food {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+      ),
+      url("../img/our-food/Group 145.svg");
+    background-position: 0 0;
+    background-size: 100% 100%, cover;
+  }
+  .our-food .container .content {
+    width: 100%;
+    padding: 40px;
+  }
+} 
+
